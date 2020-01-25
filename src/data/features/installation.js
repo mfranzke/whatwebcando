@@ -3,7 +3,8 @@ import {Feature} from "../../utils/feature";
 export default new Feature({
   id: 'installation',
   name: 'Home Screen Installation',
-  description: [`Web applications can provide the <code>manifest.json</code> file, standarized as the <b>Web Manifest</b>, specifying the features
+  description: [`<h3>Via the browser</h3>
+      Web applications can provide the <code>manifest.json</code> file, standarized as the <b>Web Manifest</b>, specifying the features
        and behaviors needed on order to treat the application as a first-class citizen on the mobile platform, i.e. adding ("installing") to the home screen
        with the relevant icon, full screen behaviors, themes, standalone appearance without browser bar etc. It can also serve as a centralized place
        to put all the metadata associated with the Web application.`,
@@ -12,7 +13,13 @@ export default new Feature({
        as a <a href="https://developers.google.com/web/progressive-web-apps" target="_blank" rel="noopener">Progressive Web App</a>. Such applications
        get non-obtrusive "add to home screen" banners in most Android browsers.`,
     `Browser-assisted adding to the home screen is also possible on iOS using <a href="https://developer.apple.com/library/ios/documentation/AppleApplications/Reference/SafariWebContent/ConfiguringWebApplications/ConfiguringWebApplications.html" target="_blank" rel="noopener">non-standard Apple meta tags</a>
-       describing icons and allowing to run without the Safari UI (standalone mode).`],
+       describing icons and allowing to run without the Safari UI (standalone mode).
+
+     <h3>Via the stores</h3>
+     *tbd*
+     <h3>Trusted Web Activity / TWA</h3>
+     *tbd*
+     `],
   api: `<p><b>Manifest Elements</b></p>
 <pre><code>{
   "short_name": "Example App",
